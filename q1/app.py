@@ -24,7 +24,6 @@ def fetch_numbers(number_id, access_token):
         return []
 
 
-
 def calculate_average(numbers):
     if not numbers:
         return 0
@@ -63,7 +62,6 @@ def numbers(number_id):
         "avg": average
     }
     return jsonify(response_data)
-
 
 
 if __name__ == '__main__':
